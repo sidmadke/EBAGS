@@ -1,27 +1,25 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 
 const Navbar = () => {
   return (
-
-
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className="container-fluid col-10">
-        <Link className="navbar-brand" to="/">WoodWorks</Link>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div className="container-fluid col-10 p-0">
+        <p className='text-white fs-5 my-auto me-5'>WoodWorks</p>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse d-flex justify-content-between" id="navbarNavAltMarkup">
-          <div className="navbar-nav">
-            <Link className="nav-link active" aria-current="page" to="/">Home</Link>
-            <Link className="nav-link" to="/">Products</Link>
-            <Link className="nav-link" to="/about">About</Link>
-            <Link className="nav-link" to="/contact">Contact</Link>
+        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div className="navbar-nav ">
+            <NavLink className="nav-link" aria-current="page" to="/home">Home</NavLink>
+            <NavLink className="nav-link" to="">Products</NavLink>
+            <NavLink className="nav-link" to="/about">About</NavLink>
+            <NavLink className="nav-link" to="/contact">Contact</NavLink>
           </div>
-          <div className="navbar-nav">
-            <Link className="nav-link" to="/">My Account</Link>
-            <Link className="nav-link" to="/">Cart</Link>
+          <div className="ms-auto navbar-nav">
+            <NavLink className="nav-link" to="/">My Account</NavLink>
+            <NavLink className="nav-link" to="/">Cart</NavLink>
           </div>
         </div>
       </div>

@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* home.cards */
+.cardDiv {
+  max-width: 900px;
+}
+
+/* cards explore button */
+.explore-btn {
+  border-radius: 25px;
+}
+
+/* footer */
+.footer {
+  background-color: #0F3D3E;
+}
+
+.footer-icon {
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.footer-icon:hover {
+  color: aliceblue;
+}
+
+.footer-text {
+  color: aliceblue;
+}
+
+/* text-colors */
+.text-white{
+  color: aliceblue;
+}

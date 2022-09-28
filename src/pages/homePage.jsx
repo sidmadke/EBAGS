@@ -7,14 +7,10 @@ import HomeCarousal from '../components/home.carousal';
 
 const HomePage = () => {
     return (
-        <div>
-
-
-            <h1>WoodWorks </h1>
+        <div  className='col-10 offset-1'>
             <HomeCarousal />
             <HomeCards />
-
-        </div>
+            </div>
     )
 }
 
