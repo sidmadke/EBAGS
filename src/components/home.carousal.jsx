@@ -15,14 +15,37 @@ const HomeCarousal = () => {
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src={couchCover} class="d-block w-100" alt="..."/>
+          <h1>title</h1>
+          <div class="carousel-item active ">
+            <div className='row'>
+            <div className='col-5 '>
+              <h1>this is text</h1>
+            </div>
+            <div className='col-7 '>
+            <img src={bedCover} class="d-block h-100" alt="..."/>
+            </div>
+            </div>
+            
           </div>
           <div class="carousel-item">
-            <img src={bedCover} class="d-block w-100" alt="..."/>
+          <div className='row'>
+            <div className='col-5 order-1'>
+              <h1>this is text</h1>
+            </div>
+            <div className='col-7 order-2'>
+            <img src={bedCover} class="d-block h-100" alt="..."/>
+            </div>
+            </div>
           </div>
           <div class="carousel-item">
-            <img src={tableCover} class="d-block w-100" alt="..."/>
+          <div className='row'>
+            <div className='col-5 order-1'>
+              <h1>this is text</h1>
+            </div>
+            <div className='col-7 order-2'>
+            <img src={bedCover} class="d-block h-100" alt="..."/>
+            </div>
+            </div>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

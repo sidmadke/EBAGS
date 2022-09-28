@@ -44,3 +44,16 @@ code {
 .text-white{
   color: aliceblue;
 }
+
+/* Carousal */
+#carouselExampleIndicators{
+  height: 50vh;
+}
+
+.carousel-inner{
+  height: 50vh;
+}
+
+.carousel-item{
+  height: 50vh;
+}
