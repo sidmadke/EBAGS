@@ -5,13 +5,14 @@ import About from './pages/about';
 import Contact from './pages/contact';
 import Navbar from './components/navbar';
 import Footer from './components/footer';
+import HomeCarousal from './components/home.carousal';
 
 
 function App() {
   return (
     <div >
       <Navbar/>
-      <Switch>
+            <Switch>
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
         <Route path="/" component={HomePage} />
