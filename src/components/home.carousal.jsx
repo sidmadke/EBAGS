@@ -19,7 +19,7 @@ const HomeCarousal = () => {
           <div class="carousel-item active ">
             <div className='row'>
             <div className='col-5 '>
-              <h1>this is text</h1>
+              <h1></h1>
             </div>
             <div className='col-7 '>
             <img src={bedCover} class="d-block h-100" alt="..."/>
