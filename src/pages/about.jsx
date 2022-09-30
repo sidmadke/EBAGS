@@ -12,9 +12,9 @@ const About = () => {
 
             <div className="about-text">
                 <h2>About Us</h2>
-                <p>To discover new Furniture design ideas was never so handy, browse over 500 products from our top categories for ultimate  online furniture ashopping experience. to choose  furniture for a living space as tricky as doing the interiors. Either you are redoing or changing the place,all you need to know is cheap online furniture shops from where you can buy quality products.</p>
+                <p>To discover new Furniture design ideas was never so handy, browse over 500 products from our top categories for ultimate online furniture shopping experience. To choose  furniture for a living space as tricky as doing the interiors. Either you are redoing or changing the place,all you need to know is cheap online furniture shops from where you can buy quality products.</p>
                 <div className="features">
-            <i class='bx bxs-checkbox-checked'><span>Free Home Delivery</span></i>
+                <i class='bx bxs-checkbox-checked'> <span>Free Home Delivery</span></i>
             <i class='bx bxs-checkbox-checked'><span>Easy Returns</span></i>
             <i class='bx bxs-checkbox-checked'><span>Quality Assurance</span></i>
             </div> 
