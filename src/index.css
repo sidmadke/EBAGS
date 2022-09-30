@@ -16,11 +16,23 @@ code {
 .primary-color{
   background-color: #0F3D3E
 }
-.height-5{
-  height: 50vh
+.text-white{
+  color: aliceblue;
+}
+.primary-text{
+  color: #0F3D3E;
+}
+.vh-6{
+  height: 60vh
+}
+.vh-2{
+  height: 20vh;
 }
 .static{
   position: absolute;
+}
+.max-width-1600{
+  max-width: 1600px;
 }
 
 /* home.cards */
@@ -52,102 +64,13 @@ code {
 }
 
 /* text-colors */
-.text-white{
-  color: aliceblue;
-}
-
-/* Carousal */
-#carouselExampleIndicators{
-  height: 50vh;
-}
-
-.carousel-inner{
-  height: 50vh;
-}
-
-.carousel-item{
-  height: 50vh;
-}
-
-.carousel-item.row{
-  height: 50vh;
-}
-
-
 
 
 /* About */
-.about{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  align-items: center;
-  gap: 1.5rem;
-  }
-
-  .about-img img{
-      width: 400px;
-  }
-
-  .about-img{
-    position: relative;
-  }
-
-  .about-img::after{
-    content: '';
-    height: 340px;
-    width: 232px;
-    background: lightgoldenrodyellow;
-    position: absolute;
-    bottom: 25px;
-    left: 20px;
-    border-radius: 0.5rem;
-    z-index: -1;
-  }
-
-  .about-text h2{
-    font-size: 1.4rem;
-  }
-
-  .about-text p{
-    text-align: justify;
-    margin: 1rem 0 ;
-  }
+.image{
   
-  .features{
-    display: grid;
-    row-gap: 0.8rem;
-  }
+}
 
-  .features i{
-    display: flex;
-    text-align: center;
-    font-size: 18px;
-    color: lightgray;
-      }
-
-      .features span{
-        margin-left: 1rem;
-        color: lightcoral;
-        font: 0.9rem;
-      }
-
-      .about-h2{
-        text-align: justify;
-        font-size: 30px;
-        color: lightsalmon;
-      }
-      .about-h1{
-        text-align: justify;
-        font-size: 17px;
-        color: lightslategray;
-      margin-top: 20px;
-      }
-
-      .about-h3, .about-h4{
-        margin-top: 20px ;
-        text-align: justify;
-        font-size: 20px;
-        color: gray;
-      }
-
-      
+.image-div{
+  
+}

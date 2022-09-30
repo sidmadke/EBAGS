@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className='footer py-4'>
+        <div className='footer py-4 mt-5'>
             <div className='d-flex justify-content-center pb-3'>
                 <a href="#" className="px-3 footer-icon"><i className="fa-brands fa-square-facebook"
                 /></a>
