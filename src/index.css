@@ -12,6 +12,17 @@ code {
     monospace;
 }
 
+/* root */
+.primary-color{
+  background-color: #0F3D3E
+}
+.height-5{
+  height: 50vh
+}
+.static{
+  position: absolute;
+}
+
 /* home.cards */
 .cardDiv {
   max-width: 900px;
@@ -57,6 +68,13 @@ code {
 .carousel-item{
   height: 50vh;
 }
+
+.carousel-item.row{
+  height: 50vh;
+}
+
+
+
 
 /* About */
 .about{
