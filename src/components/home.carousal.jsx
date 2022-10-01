@@ -2,6 +2,7 @@ import React from 'react';
 import cover1 from '../assets/homeCarousal-cover-1.png'
 import cover2 from '../assets/homeCarousal-cover-2.png'
 import cover3 from '../assets/homeCarousal-cover-3.png'
+import Carousal from './common/carousal';
 
 const HomeCarousal = () => {
   return (
@@ -22,36 +23,12 @@ const HomeCarousal = () => {
                 <h1 className='text-white '>New Products</h1>
               </div>
               <div className='col-10 offset-1'>
-                <div class="carousel-item active ">
-                  <div className='row vh-6'>
-                    <div className='col-5 p-5 d-flex align-items-end vh-6'>
-                      <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                    </div>
-                    <div className='col-7 d-flex justify-content-center py-3 vh-6'>
-                      <img src={cover1} class="d-block h-100 py-1" alt="..." />
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item ">
-                  <div className='row vh-6'>
-                    <div className='col-5 p-5 d-flex align-items-end vh-6'>
-                      <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                    </div>
-                    <div className='col-7 d-flex justify-content-center py-3 vh-6'>
-                      <img src={cover2} class="d-block h-100 py-1" alt="..." />
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item ">
-                  <div className='row vh-6'>
-                    <div className='col-5 p-5 d-flex align-items-end vh-6'>
-                      <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                    </div>
-                    <div className='col-7 d-flex justify-content-center py-3 vh-6'>
-                      <img src={cover3} class="d-block h-100 py-1" alt="..." />
-                    </div>
-                  </div>
-                </div>
+                <Carousal text="Lorem ipsum dolor sit amet consectetur adipisicing."
+                  image={cover1} class="carousel-item active" />
+                <Carousal text="Lorem ipsum dolor sit amet consectetur adipisicing."
+                  image={cover2} class="carousel-item" />
+                <Carousal text="Lorem ipsum dolor sit amet consectetur adipisicing."
+                  image={cover3} class="carousel-item" />
               </div>
             </div>
           </div>

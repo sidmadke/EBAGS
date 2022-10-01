@@ -21,7 +21,7 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className='col-6 mt-5'>
+                <div className='col-6 mt-4 mb-5'>
                     <h2 className='mb-4 primary-text'>Our Brand Philosophy</h2>
             
                     <h5>CUSTOMER EXPERIENCE</h5>
@@ -29,7 +29,7 @@ const About = () => {
                     <h5>COMFORT</h5>
                     <p >Whether it is comfort of shopping with us or the comfort provided by our products like sofas and chairs using high quality material like foams, fibers and down feathers, we have taken care of all your comfort needs in our products</p>
                 </div>
-                <div className='col-6 mt-5'>
+                <div className='col-6 mt-4 mb-5'>
                     <img src={cover2} className='col-9 offset-3'/>
                 </div>
             </div>

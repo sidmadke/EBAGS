@@ -18,7 +18,7 @@ const Navbar = () => {
             <NavLink className="nav-link" to="/contact">Contact</NavLink>
           </div>
           <div className="ms-auto navbar-nav">
-            <NavLink className="nav-link" to="/">My Account</NavLink>
+            <NavLink className="nav-link" to="/login">Login</NavLink>
             <NavLink className="nav-link" to="/">Cart</NavLink>
           </div>
         </div>

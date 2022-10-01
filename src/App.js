@@ -5,19 +5,22 @@ import About from './pages/about';
 import Contact from './pages/contact';
 import Navbar from './components/navbar';
 import Footer from './components/footer';
-import HomeCarousal from './components/home.carousal';
+import LoginPage from './pages/loginPage';
+import RegisterPage from './pages/registerPage';
 
 
 function App() {
   return (
-    <div>
-      <Navbar/>
-            <Switch>
+    <div className='vh-10 d-flex flex-column'>
+      <Navbar />
+      <Switch>
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
+        <Route path="/login" component={LoginPage} />
+        <Route path="/signup" component={RegisterPage} />
         <Route path="/" component={HomePage} />
       </Switch>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
