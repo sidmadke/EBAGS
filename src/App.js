@@ -7,10 +7,13 @@ import Navbar from './components/navbar';
 import Footer from './components/footer';
 import LoginPage from './pages/loginPage';
 import RegisterPage from './pages/registerPage';
-import ProductPage from './pages/productPage';
 import ProductDetailsPage from './pages/productDetailsPage';
 import Cart from './pages/cart';
-
+import TablePage from './pages/tablePage';
+import ChairPage from './pages/chairPage';
+import BedPage from './pages/bedPage';
+import CupboardPage from './pages/cupboardPage';
+import CouchPage from './pages/couchPage';
 
 function App() {
   return (
@@ -22,8 +25,13 @@ function App() {
         <Route path="/login" component={LoginPage} />
         <Route path="/signup" component={RegisterPage} />
         <Route path="/cart" component={Cart} />
+        {/* <Route path="/product/:category" component={ProductPage} /> */}
+        <Route path="/product/table-section" component={TablePage} />
+        <Route path="/product/chair-section" component={ChairPage} />
+        <Route path="/product/bed-section" component={BedPage} />
+        <Route path="/product/cupboard-section" component={CupboardPage} />
+        <Route path="/product/couch-section" component={CouchPage} />
         <Route path="/product/:category/:product" component={ProductDetailsPage} />
-        <Route path="/product/:category" component={ProductPage} />
         <Route path="/" component={HomePage} />
       </Switch>
       <Footer />

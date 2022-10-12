@@ -1,16 +1,25 @@
 import React, { Component } from 'react';
 import ProductCard from '../components/common/productCard';
-import CouchProducts from '../data/couchProducts'
+import axios from 'axios'
 
-class ProductPage extends Component {
+class CouchPage extends Component {
+    state={
+        couch:[]
+    }
     
+    async componentDidMount() { 
+        const {data} = await axios.get('http://localhost:5000/api/products')
+        this.setState({couch:data.couchProducts})
+        
+     }
+
     render() {
-        return (
+         return (
             <div className='max-width-1200 col-12 col-md-12 col-lg-10 mx-auto my-5 px-5'>
-            <h1>{this.props.match.params.category}</h1>
+            <h1>Couch Page</h1>
             <div className='row justify-content-around'>
                 {
-                    CouchProducts.map((product) => (
+                    this.state.couch.map((product) => (
                         
                         <div key={product.title} className='col-10 col-sm-5 col-md-4 col-lg-3 '>
                         <ProductCard image={product.image}
@@ -21,7 +30,7 @@ class ProductPage extends Component {
                             rating={product.rating}
                             reviews={product.reviews}
                             description={product.description} />
-                    </div>
+                    </div> 
                     ))
                 }
             </div>
@@ -30,4 +39,4 @@ class ProductPage extends Component {
     }
 }
  
-export default ProductPage;
+export default CouchPage;

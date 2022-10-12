@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg primary-color navbar-dark">
       <div className="container-fluid col-10 p-0 max-width-1600">
-        <p className='text-white fs-5 my-auto me-5'>WoodWorks</p>
+        <NavLink class="navbar-brand me-5" to="/">WoodWorks</NavLink>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>

@@ -8,7 +8,7 @@ const Category = [
     },
     {
         title: 'Cupboards',
-        url: 'cupboards-section',
+        url: 'cupboard-section',
         image: './images/cupboard.jpg',
         price: 999,
         description:'this is description'
