@@ -7,6 +7,9 @@ import Navbar from './components/navbar';
 import Footer from './components/footer';
 import LoginPage from './pages/loginPage';
 import RegisterPage from './pages/registerPage';
+import ProductPage from './pages/productPage';
+import ProductDetailsPage from './pages/productDetailsPage';
+import Cart from './pages/cart';
 
 
 function App() {
@@ -18,6 +21,9 @@ function App() {
         <Route path="/contact" component={Contact} />
         <Route path="/login" component={LoginPage} />
         <Route path="/signup" component={RegisterPage} />
+        <Route path="/cart" component={Cart} />
+        <Route path="/product/:category/:product" component={ProductDetailsPage} />
+        <Route path="/product/:category" component={ProductPage} />
         <Route path="/" component={HomePage} />
       </Switch>
       <Footer />

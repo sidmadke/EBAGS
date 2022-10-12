@@ -19,7 +19,7 @@ const Navbar = () => {
           </div>
           <div className="ms-auto navbar-nav">
             <NavLink className="nav-link" to="/login">Login</NavLink>
-            <NavLink className="nav-link" to="/">Cart</NavLink>
+            <NavLink className="nav-link" to="/cart">Cart</NavLink>
           </div>
         </div>
       </div>

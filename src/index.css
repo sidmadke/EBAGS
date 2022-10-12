@@ -34,13 +34,9 @@ code {
 .max-width-1600{
   max-width: 1600px;
 }
-
-/* home.cards */
-.cardDiv {
+.max-width-900{
   max-width: 900px;
 }
-
-/* cards explore button */
-.explore-btn {
-  border-radius: 25px;
+.max-width-1200{
+  max-width: 1200px;
 }
