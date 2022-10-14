@@ -40,3 +40,6 @@ code {
 .max-width-1200{
   max-width: 1200px;
 }
+.bg-orange{
+  background-color: orange;
+}

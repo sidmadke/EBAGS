@@ -26,12 +26,13 @@ function App() {
         <Route path="/signup" component={RegisterPage} />
         <Route path="/cart" component={Cart} />
         {/* <Route path="/product/:category" component={ProductPage} /> */}
-        <Route path="/product/table-section" component={TablePage} />
-        <Route path="/product/chair-section" component={ChairPage} />
-        <Route path="/product/bed-section" component={BedPage} />
-        <Route path="/product/cupboard-section" component={CupboardPage} />
-        <Route path="/product/couch-section" component={CouchPage} />
-        <Route path="/product/:category/:product" component={ProductDetailsPage} />
+        <Route path="/products/:category/:product" component={ProductDetailsPage} />
+        <Route path="/products/table-section" component={TablePage} />
+        <Route path="/products/chair-section" component={ChairPage} />
+        <Route path="/products/bed-section" component={BedPage} />
+        <Route path="/products/cupboard-section" component={CupboardPage} />
+        <Route path="/products/couch-section" component={CouchPage} />
+        
         <Route path="/" component={HomePage} />
       </Switch>
       <Footer />

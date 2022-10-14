@@ -24,6 +24,7 @@ class ChairPage extends Component {
                         <ProductCard image={product.image}
                             title={product.title} 
                             url={product.url}
+                            category={product.category}
                             price={product.price}
                             brand={product.brand}
                             rating={product.rating}

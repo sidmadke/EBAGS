@@ -32,12 +32,12 @@ class Rating extends Component {
                 </span>
                 <span className='text-warning'>
                     <i className={
-                        rating==5?"fa-solid fa-star":
+                        rating>=5?"fa-solid fa-star":
                         rating>=4.5?"fa-regular fa-star-half-stroke":"fa-regular fa-star"
                     }></i>
                 </span>
                 <span className='fw-bold ms-2'>
-                   {reviews}
+                   {reviews} reviews
                 </span>
             </div>
         );

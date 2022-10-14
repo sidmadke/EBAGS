@@ -10,7 +10,7 @@ class CupboardPage extends Component {
     async componentDidMount() { 
         const {data} = await axios.get('http://localhost:5000/api/products')
         this.setState({cupboard:data.cupboardProducts})
-     }
+     } 
     render() {
          return (
             <div className='max-width-1200 col-12 col-md-12 col-lg-10 mx-auto my-5 px-5'>

@@ -5,8 +5,7 @@ import Rating from './rating';
 const ProductCard = (props) => {
     return (
         <div className="card my-3">
-
-            <Link to={`/product/${props.url}`}> <img src={props.image} className="card-img-top" alt="..." /></Link>
+            <Link to={`/products/${props.url}`}> <img src={props.image} className="card-img-top" alt={props.title} /></Link>
             <div className="card-body">
 
                 <div className='d-flex justify-content-between align-items-center pb-3'>
@@ -15,10 +14,8 @@ const ProductCard = (props) => {
                         <p className='m-0 fw-bolder'>Cart <i class="fa-solid fa-cart-shopping"></i>
                         </p></Link>
                 </div>
-
-                <p className="card-text m-0">{props.description}</p>
-                <p className="card-text m-0">{props.brand}</p>
-                <Rating rating={props.rating} reviews={props.reviews}/>
+                <Rating rating={props.rating} reviews={props.reviews} />
+                <p className='fs-4 m-0'>₹{props.price}</p>
             </div>
         </div>
     );
