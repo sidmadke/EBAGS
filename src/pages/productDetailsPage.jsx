@@ -9,8 +9,8 @@ class ProductDetailsPage extends Component {
     }
 
     async componentDidMount() {
-        const category = this.props.match.params.category
-        const product = this.props.match.params.product
+        const category = this.props.category
+        const product = this.props.product
 
         const { data } = await axios.get(`http://localhost:5000/api/products/${category}/${product}`)
         this.setState({ product: data })
@@ -46,9 +46,8 @@ class ProductDetailsPage extends Component {
                             </p>
                             {product.stock > 0 &&
                                 <div className='d-flex justify-content-center my-3'>
-                                    <Link to='/cart' className="btn btn-warning btn-sm">
-                                        <p className='m-0 fw-bolder'>Add to Cart<i class="fa-solid fa-cart-shopping"></i>
-                                        </p></Link>
+                                    <button type="button" class="btn btn-warning btn-sm" onClick={()=>this.props.handleAddCart(product)}><p className='m-0 fw-bolder'>Add to Cart<i class="fa-solid fa-cart-shopping"></i>
+                                </p></button>
                                 </div>
                             }
 

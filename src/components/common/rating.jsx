@@ -3,7 +3,6 @@ import React, { Component } from 'react'
 class Rating extends Component {
     render() {
         const {rating, reviews} = this.props;
-        // console.log(rating,reviews)
         return (
             <div>
                 <span className='text-warning'>

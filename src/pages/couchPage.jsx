@@ -22,15 +22,8 @@ class CouchPage extends Component {
                     this.state.couch.map((product) => (
                         
                         <div key={product.title} className='col-10 col-sm-5 col-md-4 col-lg-3 '>
-                        <ProductCard image={product.image}
-                            title={product.title} 
-                            url={product.url}
-                            category={product.category}
-                            price={product.price}
-                            brand={product.brand}
-                            rating={product.rating}
-                            reviews={product.reviews}
-                            description={product.description} />
+                        <ProductCard product={product}
+                            handleAddCart={this.props.handleAddCart}/>
                     </div> 
                     ))
                 }

@@ -8,12 +8,11 @@ import HomeCarousal from '../components/home.carousal';
 const HomePage = () => {
     return (
         <>
-        <HomeCarousal/>
-        <div  className='col-10 offset-1'>
-        
-            <HomeCards />
+            <HomeCarousal />
+            <div className='col-10 offset-1'>
+                <HomeCards />
             </div>
-            </>
+        </>
     )
 }
 
