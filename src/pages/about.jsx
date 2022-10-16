@@ -1,13 +1,11 @@
 import React from 'react';
-import cover1 from '../assets/aboutCover-1.png'
-import cover2 from '../assets/aboutCover-2.png'
 
 const About = () => {
     return (
         <div className='col-10 offset-1'>
             <div className='row'>
                 <div className='col-6 mt-5'>
-                    <img src={cover1} className='col-9' />
+                    <img src='/images/aboutCover-1.png' className='col-9' />
                 </div>
                 <div className='col-6 mt-5'>
                     <h2 className='primary-text'>About Us</h2>
@@ -30,7 +28,7 @@ const About = () => {
                     <p >Whether it is comfort of shopping with us or the comfort provided by our products like sofas and chairs using high quality material like foams, fibers and down feathers, we have taken care of all your comfort needs in our products</p>
                 </div>
                 <div className='col-6 mt-4 mb-5'>
-                    <img src={cover2} className='col-9 offset-3'/>
+                    <img src='/images/aboutCover-2.png' className='col-9 offset-3'/>
                 </div>
             </div>
 
