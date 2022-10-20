@@ -1,6 +1,7 @@
 import React from 'react';
 import InputComponent from '../components/common/inputComponent';
 import Form from '../components/common/form';
+import axios from 'axios'
 
 class RegisterPage extends Form {
     state = {
@@ -40,6 +41,16 @@ class RegisterPage extends Form {
             if (input.value.trim() == "")
                 return "password is required"
         }
+    }
+    handleSubmit = async (e) => {
+        e.preventDefault()
+        const error = this.validate();
+        this.setState({ error: error })
+        if(error){
+            console.log(error)
+            return
+        }
+        console.log(await axios.post('http://localhost:5000/api/users',this.state.account)  ) 
     }
 
     render() {

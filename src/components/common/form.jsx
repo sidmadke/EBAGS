@@ -2,16 +2,16 @@ import { Component } from 'react'
 import axios from 'axios'
 
 class Form extends Component { 
-    handleSubmit = async (e) => {
-        e.preventDefault()
-        const error = this.validate();
-        this.setState({ error: error })
-        if(error){
-            console.log(error)
-            return
-        }
-        console.log(await axios.post('http://localhost:5000/api/users',this.state.account))    
-    }
+    // handleSubmit = async (e) => {
+    //     e.preventDefault()
+    //     const error = this.validate();
+    //     this.setState({ error: error })
+    //     if(error){
+    //         console.log(error)
+    //         return
+    //     }
+    //     await axios.post('http://localhost:5000/api/users',this.state.account)   
+    // }
 
     handleChange = e => {
         let temp = { ...this.state.account }

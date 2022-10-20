@@ -23,7 +23,6 @@ router.post('/', async (req,res)=>{
     })
 
     await user.save()
-    console.log(req.body)
     res.send(user)
 })
 

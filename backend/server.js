@@ -3,6 +3,7 @@ const cors  = require('cors')
 const mongoose = require('mongoose')
 const dotenv = require('dotenv')
 const user = require('./routes/user')
+const auth = require('./routes/auth')
 const data = require('./routes/data')
 
 
@@ -17,6 +18,7 @@ app.use(cors()) // Use this after the variable declaration
 
 //ROUTES
 app.use('/api/users',user)
+app.use('/api/auth',auth)
 app.use('/api',data)
 
 
