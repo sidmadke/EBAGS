@@ -36,4 +36,4 @@ const Category = [
     }
 ]
 
-export default Category;
+module.exports = Category

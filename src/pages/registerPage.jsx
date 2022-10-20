@@ -13,7 +13,7 @@ class RegisterPage extends Form {
         }
     }
 
-    validate = () => {
+    validate = () => { 
         let error = {}
         if (this.state.account.email.trim() == "") {
             error.username = 'email is required'

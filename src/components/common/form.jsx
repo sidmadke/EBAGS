@@ -1,7 +1,8 @@
-import React, { Component } from 'react'
+import { Component } from 'react'
+import axios from 'axios'
 
 class Form extends Component { 
-    handleSubmit = (e) => {
+    handleSubmit = async (e) => {
         e.preventDefault()
         const error = this.validate();
         this.setState({ error: error })
@@ -9,7 +10,7 @@ class Form extends Component {
             console.log(error)
             return
         }
-        console.log("submitted")
+        console.log(await axios.post('http://localhost:5000/api/users',this.state.account))    
     }
 
     handleChange = e => {
