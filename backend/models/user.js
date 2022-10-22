@@ -10,9 +10,9 @@ const userSchema = new mongoose.Schema({
 
 function Validate(user){
     const schema = {
-        email:Joi.string().min(3).required().email(),
-        username:Joi.string().min(3).required(),
-        password:Joi.string().min(3).required()
+        email:Joi.string().required().email(),
+        username:Joi.string().min(4).required(),
+        password:Joi.string().min(4).required()
     }
     return Joi.validate(user,schema)
 }

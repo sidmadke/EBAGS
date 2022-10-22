@@ -7,13 +7,13 @@ router.use(express.json())
 router.post('/', async (req,res)=>{
     const result = validate(req.body)
 
-    if(result.error){
-        return res.status(400).send(result.error.details[0].message)
-    }
-
     let user = await User.findOne({email: req.body.email})
     if(user) {
-        return res.status(400).send('email already registered')
+        return res.send('email already registered')
+    }
+
+    if(result.error){
+        return res.send(result.error.details[0].message)
     }
 
     user = new User({
@@ -23,7 +23,7 @@ router.post('/', async (req,res)=>{
     })
 
     await user.save()
-    res.send(user)
+    res.send("Congratulation! You are Signed Up.")
 })
 
 router.get('/',(req,res)=>{
