@@ -44,7 +44,8 @@ class LoginPage extends Form {
             console.log(error)
             return
         }
-        console.log(await axios.post('http://localhost:5000/api/auth',this.state.account))
+        const response = await axios.post('http://localhost:5000/api/auth',this.state.account)
+        alert(response.data)
     }
 
     render() {
