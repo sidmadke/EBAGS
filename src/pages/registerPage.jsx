@@ -50,11 +50,11 @@ class RegisterPage extends Form {
             console.log(error)
             return
         }
-        const registered = await axios.post('http://localhost:5000/api/users',this.state.account)
-        // console.log(registered.data) 
-        if(registered.data)
-            alert('successfully login')
-    }
+        // console.log(await axios.post('http://localhost:5000/api/users',this.state.account))
+        
+            const response = await axios.post('http://localhost:5000/api/users',this.state.account)
+            alert(response.data)
+        }
 
     render() {
         return (

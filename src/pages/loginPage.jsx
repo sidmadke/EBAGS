@@ -7,7 +7,7 @@ import axios from 'axios'
 class LoginPage extends Form {
     state = {
         account: {
-            username: '',
+            email: '',
             password: ''
         },
         error: {
@@ -16,8 +16,8 @@ class LoginPage extends Form {
 
     validate = () => {
         let error = {}
-        if (this.state.account.username.trim() == "") {
-            error.username = 'username is required'
+        if (this.state.account.email.trim() == "") {
+            error.email = 'email is required'
         }
         if (this.state.account.password.trim() == "")
             error.password = 'password is required' 
@@ -26,9 +26,9 @@ class LoginPage extends Form {
 
     validateProperty = input => {
         
-        if (input.name == "username") {
+        if (input.name == "email") {
             if (input.value.trim() == "")
-                return "username is required"
+                return "email is required"
         }
         if (input.name == "password") {
             if (input.value.trim() == "")
@@ -44,9 +44,7 @@ class LoginPage extends Form {
             console.log(error)
             return
         }
-        const login = await axios.post('http://localhost:5000/api/auth',this.state.account)
-        if(login.data)
-            alert('login succesfull')
+        console.log(await axios.post('http://localhost:5000/api/auth',this.state.account))
     }
 
     render() {
@@ -54,7 +52,7 @@ class LoginPage extends Form {
             <div className='col-3 mx-auto my-5'>
                 <h1 className='text-center'>Login</h1>
                 <form onSubmit={this.handleSubmit}>
-                    <InputComponent title="Username" type="text" name="username" error={this.state.error.username} onChange={this.handleChange} />
+                    <InputComponent title="Email" type="text" name="email" error={this.state.error.email} onChange={this.handleChange} />
                     <InputComponent title="Password" type="password" name="password" error={this.state.error.password} onChange={this.handleChange} />
                     <div className="d-flex justify-content-between align-items-center">
                     <button type="submit" className="btn btn-primary text-white">Submit</button>
