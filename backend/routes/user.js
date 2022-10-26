@@ -23,7 +23,7 @@ router.post('/', async (req,res)=>{
     })
 
     await user.save()
-    res.send(user)
+    res.send(true)
 })
 
 router.get('/',(req,res)=>{

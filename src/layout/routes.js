@@ -7,10 +7,10 @@ import RegisterPage from '../pages/registerPage';
 import Cart from '../pages/cart';
 import ProductDetailsPage from '../pages/productDetailsPage';
 import TablePage from '../pages/tablePage';
-import ChairPage from '../pages/chairPage';
+import CampPage from '../pages/campPage';
 import BedPage from '../pages/bedPage';
-import CupboardPage from '../pages/cupboardPage';
-import CouchPage from '../pages/couchPage';
+import ThoratPage from '../pages/thoratPage';
+import CollegePage from '../pages/collegePage';
 import HomePage from '../pages/homePage';
 
 class Routes extends Component {
@@ -32,12 +32,12 @@ class Routes extends Component {
           <ProductDetailsPage category={props.match.params.category} product={props.match.params.product} cart={this.state.cart} handleAddCart={this.state.handleAddCart} />
         )} />
 
-        <Route path="/products/couch-section">
-          <CouchPage handleAddCart={this.props.handleAddCart} />
+        <Route path="/products/college-section">
+          <CollegePage handleAddCart={this.props.handleAddCart} />
         </Route>
 
-        <Route path="/products/cupboard-section">
-          <CupboardPage handleAddCart={this.props.handleAddCart} />
+        <Route path="/products/Thorat-section">
+          <ThoratPage handleAddCart={this.props.handleAddCart} />
         </Route>
 
         <Route path="/products/table-section">
@@ -48,8 +48,8 @@ class Routes extends Component {
           <BedPage handleAddCart={this.props.handleAddCart} />
         </Route>
 
-        <Route path="/products/chair-section">
-          <ChairPage handleAddCart={this.props.handleAddCart} />
+        <Route path="/products/camp-section">
+          <CampPage handleAddCart={this.props.handleAddCart} />
         </Route>
 
         <Route path="/" component={HomePage} />

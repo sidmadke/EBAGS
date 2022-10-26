@@ -15,7 +15,7 @@ class App extends Component {
       alert('Already in Cart')
     }
     else if(newProduct.stock<=0){
-      alert('currently not in stock')
+      alert('Currently not in stock')
       return
     }
     else{

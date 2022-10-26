@@ -14,7 +14,8 @@ const Footer = () => {
                 /></a>
             </div>
             <div className="text-center">
-                <p className='text-white m-0'>&copy; 2021. Foodies. All Right Reserved</p>
+                <p className='text-white m-0'>&copy; 2022. Thorat Bags. My Team Members All Right Reserved</p>
+            
             </div>
         </div>
     );

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom'
 
 class Cart extends Component {
     state = {}
@@ -69,7 +70,8 @@ class Cart extends Component {
                             <h4>Subtotal ({this.subItem(cart)} Items) :</h4>
                             <h5 className='fw-bold'>₹{this.subTotal(cart)}</h5>
                             <div className='d-flex justify-content-center my-4'>
-                                <button type="button" class="btn btn-warning btn-sm"><p className='fw-bold m-0'>Proceed to Checkout</p></button>
+                                {/* <button type="button" class="btn btn-warning btn-sm"><p className='fw-bold m-0'>Proceed to Checkout</p></button> */}
+                                <Link to='/login'><button type="button" class="btn btn-warning btn-sm"><p className='fw-bold m-0'>Proceed to Checkout</p></button></Link>
                             </div>
                         </div>
                     </div>

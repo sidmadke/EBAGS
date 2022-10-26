@@ -5,12 +5,12 @@ const About = () => {
         <div className='col-10 offset-1'>
             <div className='row'>
                 <div className='col-6 mt-5'>
-                    <img src='/images/aboutCover-1.png' className='col-9' />
+                    <img src='/images/about.jpg' className='col-9' />
                 </div>
                 <div className='col-6 mt-5'>
                     <h2 className='primary-text'>About Us</h2>
                     <p className='my-3'>
-                        To discover new Furniture design ideas was never so handy, browse over 500 products from our top categories for ultimate online furniture shopping experience. To choose  furniture for a living space as tricky as doing the interiors. Either you are redoing or changing the place,all you need to know is cheap online furniture shops from where you can buy quality products.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus exercitationem sequi beatae voluptate sint nemo nesciunt autem assumenda temporibus voluptatum officiis provident fugiat, omnis vero dolores similique eligendi sit voluptates!
                     </p>
                     <div>
                         <p><i class="fa fa-check primary-text" aria-hidden="true"></i> Free Home Delivery</p>
@@ -23,12 +23,12 @@ const About = () => {
                     <h2 className='mb-4 primary-text'>Our Brand Philosophy</h2>
             
                     <h5>CUSTOMER EXPERIENCE</h5>
-                    <p >Everything we create is designed with our customer in mind, and we’re committed to an incredible service experience that leaves our customer smiling each time they visit us online or speak to one of our cheerful customer service associate.</p>
+                    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, repudiandae nihil. Repudiandae, tempore laboriosam quidem deserunt repellat hic? Quidem dolor quisquam ut? Impedit eligendi quae commodi cumque deleniti, consectetur, eius, cupiditate rerum amet ducimus eum omnis nobis. Voluptates, at maxime, labore possimus architecto explicabo qui nisi molestiae tempore dolorem fugiat?</p>
                     <h5>COMFORT</h5>
-                    <p >Whether it is comfort of shopping with us or the comfort provided by our products like sofas and chairs using high quality material like foams, fibers and down feathers, we have taken care of all your comfort needs in our products</p>
+                    <p >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam animi labore minus, dicta quidem explicabo quasi temporibus vel quod optio consequatur laborum natus eum odit, inventore voluptate blanditiis esse praesentium.</p>
                 </div>
                 <div className='col-6 mt-4 mb-5'>
-                    <img src='/images/aboutCover-2.png' className='col-9 offset-3'/>
+                    <img src='/images/customer.jpg' className='col-9 offset-3'/>
                 </div>
             </div>
 

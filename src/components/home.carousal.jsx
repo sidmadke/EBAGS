@@ -1,7 +1,11 @@
 import React from 'react';
-import cover1 from '../assets/homeCarousal-cover-1.png'
-import cover2 from '../assets/homeCarousal-cover-2.png'
-import cover3 from '../assets/homeCarousal-cover-3.png'
+// import cover1 from '../assets/homeCarousal-cover-1.png'
+// import cover2 from '../assets/homeCarousal-cover-2.png'
+// import cover3 from '../assets/homeCarousal-cover-3.png'
+import cover4 from '../assets/homeCarousal-cover-4.png'
+import cover5 from '../assets/homeCarousal-cover-5.png'
+import cover6 from '../assets/homeCarousal-cover-6.png'
+import cover7 from '../assets/homeCarousal-cover-7.png'
 import Carousal from './common/carousal';
 
 const HomeCarousal = () => {
@@ -14,21 +18,24 @@ const HomeCarousal = () => {
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
           </div>
 
           <div className="carousel-inner ">
             <div className='row'>
-              <div className='col-5 offset-1 static p-5'>
-                <h1 className='text-white '>Meet Our</h1>
-                <h1 className='text-white '>New Products</h1>
+              <div className='col-5 offset-1 static p-5 '>
+                <strong><h1 className='text-black title'>Meet Our</h1>
+                <h1 className='text-black title'>New Products</h1></strong>
               </div>
               <div className='col-10 offset-1'>
-                <Carousal text="Lorem ipsum dolor sit amet consectetur adipisicing."
-                  image={cover1} class="carousel-item active" />
-                <Carousal text="Lorem ipsum dolor sit amet consectetur adipisicing."
-                  image={cover2} class="carousel-item" />
-                <Carousal text="Lorem ipsum dolor sit amet consectetur adipisicing."
-                  image={cover3} class="carousel-item" />
+                <Carousal text="New Stylish Gym Bag for everyone."
+                  image={cover4} class="carousel-item active" />
+                <Carousal text="Unique Styled College Bag. Go and check at Product Section."
+                  image={cover5} class="carousel-item" />
+                <Carousal text="Hand Bag. Your All time companion."
+                  image={cover6} class="carousel-item" />
+                <Carousal text="Your Gym Buddy."
+                  image={cover7} class="carousel-item" />
               </div>
             </div>
           </div>

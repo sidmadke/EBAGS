@@ -1,39 +1,44 @@
 const Category = [
     {
-        title: 'Couch',
-        url: 'couch-section',
-        image: './images/couch.jpg',
-        price: 999,
-        description:'this is description'
+        title: 'College Bags',
+        url: 'college-section',
+        image: './img/bags/bag3.png',
+        price: 499,
+        description:'this is description of College Bag'
     },
     {
-        title: 'Cupboards',
-        url: 'cupboard-section',
-        image: './images/cupboard.jpg',
-        price: 999,
-        description:'this is description'
+        title: 'Camping Bags',
+        url: 'camp-section',
+        image: './img/bags/bag4.png',
+        price: 1449,
+        description:'When your Laptop is your Every Thing.'
     },
     {
-        title: 'Tables',
-        url: 'table-section',
-        image: './images/table.jpg',
-        price: 999,
-        description:'this is description'
-    },
-    {
-        title: 'Beds',
+        title: 'Ladies Bags',
         url: 'bed-section',
-        image: './images/bed.jpg',
+        image: './img/bags/bag10.png',
         price: 999,
-        description:'this is description'
-    },
+        description:'All You need is little Makeup.'
+    },  
+    
     {
-        title: 'Chairs',
-        url: 'chair-section',
-        image: './images/chair.jpg',
-        price: 999,
-        description:'this is description'
+        title: 'Thorat Bags',
+        url: 'Thorat-section',
+        image: './images/gym.png',
+        price: 450,
+        description:'this is description of Gym Bag'
+    },
+    
+    
+    {
+        title: 'Sling Bag',
+        url: 'table-section',
+        image: './images/slingbag.png',
+        price: 149,
+        description:'this is description of Hand Bag    '
     }
+
+    
 ]
 
 module.exports = Category

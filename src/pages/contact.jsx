@@ -34,11 +34,11 @@ const Contact = () => {
                         </div>
                         <div className='col-12 d-flex flex-column align-items-center mb-3'>
                             <i class="fa-solid fa-phone fs-2 primary-text"></i>
-                            <p>+01 234 567 89</p>
+                            <p>9869796324</p>
                         </div>
                         <div className='col-12 d-flex flex-column align-items-center'>
                             <i class="fa-solid fa-envelope fs-2 primary-text"></i>
-                            <p>contactwoodworks@gmail.com</p>
+                            <p>enquirythoratbags@gmail.com</p>
                         </div>
                     </div>
                 </div>
