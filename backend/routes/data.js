@@ -25,10 +25,10 @@ router.get('/products/:category/:product', (req,res)=>{
         product = Products.thoratProducts.find(x => x.url==url)
     }
     if(req.params.category=='military-section'){
-        product = Products.tableProducts.find(x => x.url==url)
+        product = Products.militaryProducts.find(x => x.url==url)
     }
     if(req.params.category=='ladies-section'){
-        product = Products.bedProducts.find(x => x.url==url)
+        product = Products.ladiesProducts.find(x => x.url==url)
     }
     res.send(product)
 })

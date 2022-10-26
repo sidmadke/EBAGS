@@ -17,21 +17,21 @@ const Category = [
         title: 'Camping Bags',
         url: 'camp-section',
         image: './img/bags/bag4.png',
-        price: 1449,
+        price: 999,
         description:'When your Laptop is your Every Thing.'
     },
     {
         title: 'Ladies Bags',
         url: 'ladies-section',
         image: './img/bags/bag10.png',
-        price: 999,
+        price: 449,
         description:'This is description of Ladies Bag. Explore by clicking here'
     },  
     {
         title: 'Military Bag',
         url: 'military-section',
         image: './img/bags/mili1.png',
-        price: 149,
+        price: 1449,
         description:'This is description of Military Bags.'
     }
 

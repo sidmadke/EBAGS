@@ -14,7 +14,7 @@ class MilitaryPage extends Component {
     render() {
         return (
             <div className='max-width-1200 col-12 col-md-12 col-lg-10 mx-auto my-5 px-5'>
-            <h1>Table Section</h1>
+            <h1>Military Bags</h1>
             <div className='row justify-content-around'>
                 {
                     this.state.military.map((product) => (
