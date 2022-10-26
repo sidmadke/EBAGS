@@ -6,9 +6,9 @@ import LoginPage from '../pages/loginPage';
 import RegisterPage from '../pages/registerPage';
 import Cart from '../pages/cart';
 import ProductDetailsPage from '../pages/productDetailsPage';
-import TablePage from '../pages/tablePage';
+import MilitaryPage from '../pages/militaryPage';
 import CampPage from '../pages/campPage';
-import BedPage from '../pages/bedPage';
+import LadiesPage from '../pages/ladiesPage';
 import ThoratPage from '../pages/thoratPage';
 import CollegePage from '../pages/collegePage';
 import HomePage from '../pages/homePage';
@@ -40,12 +40,12 @@ class Routes extends Component {
           <ThoratPage handleAddCart={this.props.handleAddCart} />
         </Route>
 
-        <Route path="/products/table-section">
-          <TablePage handleAddCart={this.props.handleAddCart} />
+        <Route path="/products/military-section">
+          <MilitaryPage handleAddCart={this.props.handleAddCart} />
         </Route>
 
-        <Route path="/products/bed-section">
-          <BedPage handleAddCart={this.props.handleAddCart} />
+        <Route path="/products/ladies-section">
+          <LadiesPage handleAddCart={this.props.handleAddCart} />
         </Route>
 
         <Route path="/products/camp-section">

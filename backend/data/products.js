@@ -11,7 +11,7 @@ const Products = {
             rating: 2.5,
             reviews: 10,
             description:'this is description',
-            stock:0,
+            stock:5,
             inCart:0,
             
         },
@@ -54,16 +54,16 @@ const Products = {
             rating: 4.5,
             reviews: 10,
             description:'this is description',
-            stock:0,
+            stock:5,
             inCart:0
         }
     ],
-    cupboardProducts : [
+    thoratProducts : [
         {
             _id:201,
-            title: 'cupboard-1',
-            url: 'Thorat-section/cupboard-1',
-            image: '/images/couch.jpg',
+            title: 'thorat-1',
+            url: 'Thorat-section/thorat-1',
+            image: '/img/gym2.png',
             price: 999,
             brand: 'originals',
             rating: 4.5,
@@ -74,9 +74,9 @@ const Products = {
         },
         {
             _id:202,
-            title: 'cupboard-2',
-            url: 'Thorat-section/cupboard-2',
-            image: '/images/couch.jpg',
+            title: 'thorat-2',
+            url: 'Thorat-section/thorat-2',
+            image: '/img/gym.png',
             price: 999,
             brand: 'originals',
             rating: 4.5,
@@ -87,9 +87,9 @@ const Products = {
         },
         {
             _id:203,
-            title: 'cupboard-3',
-            url: 'Thorat-section/cupboard-3',
-            image: '/images/couch.jpg',
+            title: 'thorat-3',
+            url: 'Thorat-section/thorat-3',
+            image: '/img/gym2.png',
             price: 999,
             brand: 'originals',
             rating: 4.5,
@@ -100,9 +100,9 @@ const Products = {
         },
         {
             _id:204,
-            title: 'cupboard-4',
-            url: 'Thorat-section/cupboard-4',
-            image: '/images/couch.jpg',
+            title: 'thorat-4',
+            url: 'Thorat-section/thorat-4',
+            image: '/img/gym.png',
             price: 999,
             brand: 'originals',
             rating: 4.5,
@@ -112,25 +112,25 @@ const Products = {
             inCart:0
         }
     ],
-    tableProducts : [
+    militaryProducts : [
         {
             _id:301,
-            title: 'table-1',
-            url: 'table-section/table-1',
-            image: '/images/couch.jpg',
+            title: 'military-1',
+            url: 'military-section/military-1',
+            image: '/img/bags/mili1.png',
             price: 999,
             brand: 'originals',
             rating: 4.5,
             reviews: 10,
             description:'this is description',
-            stock:0,
+            stock:5,
             inCart:0
         },
         {
             _id:302,
-            title: 'table-2',
-            url: 'table-section/table-2',
-            image: '/images/couch.jpg',
+            title: 'military-2',
+            url: 'military-section/military-2',
+            image: '/img/bags/mili2.png',
             price: 999,
             brand: 'originals',
             rating: 4.5,
@@ -141,9 +141,9 @@ const Products = {
         },
         {
             _id:303,
-            title: 'table-3',
-            url: 'table-section/table-3',
-            image: '/images/couch.jpg',
+            title: 'military-3',
+            url: 'military-section/military-3',
+            image: '/img/bags/mili3.png',
             price: 999,
             brand: 'originals',
             rating: 4.5,
@@ -154,9 +154,9 @@ const Products = {
         },
         {
             _id:304,
-            title: 'table-4',
-            url: 'table-section/table-4',
-            image: '/images/couch.jpg',
+            title: 'military-4',
+            url: 'military-section/military-4',
+            image: '/img/bags/mili4.png',
             price: 999,
             brand: 'originals',
             rating: 4.5,
@@ -166,12 +166,12 @@ const Products = {
             inCart:0
         }
     ],
-    bedProducts : [
+    ladiesProducts : [
         {
             _id:401,
-            title: 'bed-1',
-            url: 'bed-section/bed-1',
-            image: '/images/couch.jpg',
+            title: 'gbag-1',
+            url: 'ladies-section/gbag-1',
+            image: '/img/bags/gbag1.png',
             price: 999,
             brand: 'originals',
             rating: 4.5,
@@ -182,9 +182,9 @@ const Products = {
         },
         {
             _id:402,
-            title: 'bed-2',
-            url: 'bed-section/bed-2',
-            image: '/images/couch.jpg',
+            title: 'gbag-2',
+            url: 'ladies-section/gbag-2',
+            image: '/img/bags/gbag2.png',
             price: 999,
             brand: 'originals',
             rating: 4.5,
@@ -195,9 +195,9 @@ const Products = {
         },
         {
             _id:403,
-            title: 'bed-3',
-            url: 'bed-section/bed-3',
-            image: '/images/couch.jpg',
+            title: 'gbag-3',
+            url: 'ladies-section/gbag-3',
+            image: '/img/bags/gbag3.png',
             price: 999,
             brand: 'originals',
             rating: 4.5,
@@ -208,9 +208,9 @@ const Products = {
         },
         {
             _id:404,
-            title: 'bed-4',
-            url: 'bed-section/bed-4',
-            image: '/images/couch.jpg',
+            title: 'gbag-4',
+            url: 'ladies-section/gbag-4',
+            image: '/img/bags/gbag4.png',
             price: 999,
             brand: 'originals',
             rating: 4.5,
@@ -225,7 +225,7 @@ const Products = {
             _id: 501,
             title: 'Bag 1',
             url: 'college-section/college-1',
-            image: '/img/bags/bag1.png',
+            image: '/img/bags/bag3.png',
             price: 499,
             brand: 'originals',
             rating: 5,
@@ -244,7 +244,7 @@ const Products = {
             rating: 4.5,
             reviews: 10,
             description:'this is description',
-            stock:1,
+            stock:5,
             inCart:0
         },
         {
@@ -257,7 +257,7 @@ const Products = {
             rating: 4.5,
             reviews: 10,
             description:'this is description',
-            stock:2,
+            stock:5,
             inCart:0
         },
         {
@@ -270,7 +270,7 @@ const Products = {
             rating: 4.5,
             reviews: 10,
             description:'this is description',
-            stock:3,
+            stock:5,
             inCart:0
         }
     ]

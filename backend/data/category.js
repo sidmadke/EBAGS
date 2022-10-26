@@ -1,10 +1,17 @@
 const Category = [
     {
+        title: 'Thorat Bags',
+        url: 'Thorat-section',
+        image: './images/gym.png',
+        price: 450,
+        description:'This is description of Thorat Bag. Explore More by clicking here'
+    },
+    {
         title: 'College Bags',
         url: 'college-section',
         image: './img/bags/bag3.png',
         price: 499,
-        description:'this is description of College Bag'
+        description:'This is description of College Bag'
     },
     {
         title: 'Camping Bags',
@@ -15,27 +22,17 @@ const Category = [
     },
     {
         title: 'Ladies Bags',
-        url: 'bed-section',
+        url: 'ladies-section',
         image: './img/bags/bag10.png',
         price: 999,
-        description:'All You need is little Makeup.'
+        description:'This is description of Ladies Bag. Explore by clicking here'
     },  
-    
     {
-        title: 'Thorat Bags',
-        url: 'Thorat-section',
-        image: './images/gym.png',
-        price: 450,
-        description:'this is description of Gym Bag'
-    },
-    
-    
-    {
-        title: 'Sling Bag',
-        url: 'table-section',
-        image: './images/slingbag.png',
+        title: 'Military Bag',
+        url: 'military-section',
+        image: './img/bags/mili1.png',
         price: 149,
-        description:'this is description of Hand Bag    '
+        description:'This is description of Military Bags.'
     }
 
     
