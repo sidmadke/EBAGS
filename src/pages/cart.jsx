@@ -71,7 +71,12 @@ class Cart extends Component {
                             <h5 className='fw-bold'>₹{this.subTotal(cart)}</h5>
                             <div className='d-flex justify-content-center my-4'>
                                 {/* <button type="button" class="btn btn-warning btn-sm"><p className='fw-bold m-0'>Proceed to Checkout</p></button> */}
-                                <Link to='/login'><button type="button" class="btn btn-warning btn-sm"><p className='fw-bold m-0'>Proceed to Checkout</p></button></Link>
+                                <div>
+                                <Link to='/login'><button type="button" class="btn btn-warning btn-sm px-md-4"><p className='fw-bold m-0'>Proceed to Login</p></button></Link>
+                                <br />
+                                <br />
+                                <br />
+                                <a href='https://rzp.io/l/thoratbag' target="_blank"><button type="button" class="btn btn-warning btn-sm px-md-5"><p className='fw-bold m-0'>Pay Now</p></button></a></div>
                             </div>
                         </div>
                     </div>

@@ -6,6 +6,7 @@ import HomeCarousal from '../components/home.carousal';
 
 
 const HomePage = () => {
+    // const token = JSON.parse(atob(localStorage.getItem('token').split('.')[1]));
     return (
         <>
             <HomeCarousal />

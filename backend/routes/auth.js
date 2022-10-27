@@ -22,7 +22,6 @@ router.post('/', async (req,res)=>{
     if(!validPassword) {
         return res.send('Invalid email or password')
     }
-
     res.send("Successfully Logged In")
     
 })
