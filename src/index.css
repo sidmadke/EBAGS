@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&family=Licorice&family=Moon+Dance&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+body {
+  margin: 0;
+  font-family:'Play', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(239, 239, 239);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* root */
+/* .primary-color{
+  background-color: #0F3D3E
+} */
+.primary-color{
+  background-color: rgba(255, 234, 0, 0.84);
+  /* background: linear-gradient(to bottom, rgba(255, 234, 0, 0.84), #000000d4); */
+}
+
+.primary-color2{
+  background: linear-gradient(to top, rgba(255, 234, 0, 0.84), yellow);
+}
+.text-white{
+  color: aliceblue;
+}
+.text-dark{
+  color: #000000;
+}
+.title{
+  font-size: 80px;
+  font-weight: 500;
+}
+.subtitle{
+  font-size: 20px;
+}
+.logo{
+  filter: drop-shadow(8px 8px 8px rgba(0, 0, 0, 0.806));
+}
+.primary-text{
+  color: #000000;
+}
+.vh-6{
+  height: 60vh
+}
+.vh-10{
+  height: 100vh;
+}
+.static{
+  position: absolute;
+}
+.max-width-1600{
+  max-width: 1600px;
+}
+.max-width-900{
+  max-width: 900px;
+}
+.max-width-1200{
+  max-width: 1200px;
+}
+.bg-orange{
+  background-color: orange;
+}
+
+
+*{
+  padding: 0;
+  margin: 0;
+}
+/* Form By Farde */
+.form_main{
+  /* position: relative; */
+  display: block;
+  top: 50px;
+  right: 0%;
+  /* right: 100px; */
+  width: 450px;
+  height: 600px;
+  border: 1px solid #ccc;
+  /* margin: auto; */
+  margin-top: 38px;
+  margin-left: 400px;
+  background-color: #ffffff2b;
+  padding: 30px 50px 30px 50px;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 0 15px;
+  border-radius: 30px;
+}
+
+.form_main h2{
+  text-align: center;
+  /* font-size: 2rem; */
+  /* margin-top: 40px */
+  
+}
+
+.form_main hr{
+  width:90%;
+  margin: 10px 0px 20px 10px;
+ 
+ 
+}
+
+label{
+  /* font-size: 1.2rem; */
+  margin:10px 0;
+  
+}
+
+
+.form-control{
+  height:40px;
+  width: 92%;
+  /* width:290px; */
+  border:2.5px solid rgba(0, 0, 0, 0.84);
+  margin:0 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left:10px;
+  font-size: 1.2rem;
+}
+
+#Message{
+  height:80px;
+  resize: none;
+}
+.btn{
+  text-align: center;
+  
+  
+}
+button{
+  /* padding: 12px 45px; */
+  background-color: rgb(0, 0, 0);
+  border-radius: 15px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  /* margin: 0px 110px; */
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.btn.btn-contact{
+  position: absolute;
+  border: none;
+  padding-left: 80px;
+    padding-right: 80px;
+    left: 630px;
+    background-color: rgba(255, 234, 0, 0.84);
+  border: 1px solid rgb(0, 0, 0);
+}
+button:hover{
+  cursor: pointer;
+}
+
+/* Chip setcode contact */
+/* Below line is write to use Google font online */
+@import "http://fonts.googleapis.com/css?family=Ubuntu";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* body {
+background: url("./img/bg66.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+} */
+
+
+div#main {
+  /* width:850px;
+height:850px; */
+  margin-right: 70px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* contact */
+.chip {
+  position: relative;
+  display: inline-block;
+  padding: 0 25px;
+  height: 55px;
+  font-size: 16px;
+  line-height: 50px;
+  /* border-radius: 7px; */
+  /* background-color: #f1f1f1; */
+  background-origin: padding-box;
+  width: 301px;
+  margin-bottom: 20px;
+  /* border-style:solid;
+  border-color: #2b9ff2; */
+}
+
+
+.chip img {
+  float: left;
+  margin: 0 0 0 -25px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #2b9ff2;
+
+
+}
+
+.container1 {
+float: left;
+margin: 127px;
+position: Relavtive;
+/* LEFT: 32%; */
+margin-top: 7%;
+width: fit-content;
+}
+
+
+
+
+/* Border */
+
+.chip {
+  border-radius: 7px;
+  width: 301px;
+  height: 56px;
+  padding: 0 25px;
+  margin-bottom: 20px;
+  border: none;
+  text-align: center;
+}
+
+.chip::before,
+.chip::after {
+  position: absolute;
+  width: 320px;
+  height: 52px;
+  content: "";
+}
+
+.chip::before {
+  left: 30px;
+  top: 0;
+  border-top: 3px solid #2b9ff2;
+}
+
+.chip::after {
+  right: 0;
+  bottom: 0;
+  border-right: 3px solid #2b9ff2;
+  border-bottom: 3px solid #2b9ff2;
+}
+
+@media only screen and (max-width: 600px) {
+  .container1 
+  {
+      width: auto;
+  }
+
+  div#form_sample {
+
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1em;
+  }
+}
+.btn.btn-contact .col-3 {
+  flex: 0 0 auto;
+  width: 34%;
+}
