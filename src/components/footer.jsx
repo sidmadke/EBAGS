@@ -8,9 +8,9 @@ const Footer = () => {
                 /></a>
                 <a href="https://pages.razorpay.com/thoratbag" target="_blank"className="px-3 text-black"><i className="fa-brands fa-twitter"
                 /></a>
-                <a href="https://pages.razorpay.com/thoratbag" target="_blank"className="px-3 text-black"><i className="fa-brands fa-youtube"
+                <a href="https://youtu.be/SzYXVlLxJow?t=6" target="_blank"className="px-3 text-black"><i className="fa-brands fa-youtube"
                 /></a>
-                <a href="https://pages.razorpay.com/thoratbag" target="_blank"className="px-3 text-black"><i className="fa-brands fa-instagram"
+                <a href="https://www.instagram.com/thoratbags/" target="_blank"className="px-3 text-black"><i className="fa-brands fa-instagram"
                 /></a>
             </div>
             <div className="text-center">
