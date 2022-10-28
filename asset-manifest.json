@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Thoratbags/static/css/main.426217af.css",
+    "main.js": "/Thoratbags/static/js/main.f26ca89d.js",
+    "static/media/homeCarousal-cover-6.png": "/Thoratbags/static/media/homeCarousal-cover-6.32c3a7c012818fe90061.png",
+    "static/media/homeCarousal-cover-5.png": "/Thoratbags/static/media/homeCarousal-cover-5.7618e30767dea120cd0c.png",
+    "static/media/homeCarousal-cover-4.png": "/Thoratbags/static/media/homeCarousal-cover-4.4673b497da25b718d382.png",
+    "static/media/homeCarousal-cover-7.png": "/Thoratbags/static/media/homeCarousal-cover-7.8f8c5f152fb41e76c9d8.png",
+    "index.html": "/Thoratbags/index.html",
+    "main.426217af.css.map": "/Thoratbags/static/css/main.426217af.css.map",
+    "main.f26ca89d.js.map": "/Thoratbags/static/js/main.f26ca89d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.426217af.css",
+    "static/js/main.f26ca89d.js"
+  ]
+}
