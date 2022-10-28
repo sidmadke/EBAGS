@@ -64,7 +64,7 @@ class RegisterPage extends Form {
                     <InputComponent title="E-mail" type="text" name="email" error={this.state.error.email} onChange={this.handleChange} />
                     <InputComponent title="Username" type="text" name="username" error={this.state.error.username} onChange={this.handleChange} />
                     <InputComponent title="Password" type="password" name="password" error={this.state.error.password} onChange={this.handleChange} />
-                    <button type="submit" className="btn btn-primary">Submit</button>
+                    <button type="submit" className="btn btn-contact bg-warning">Submit</button>
                 </form>
             </div>
         );

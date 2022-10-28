@@ -5,12 +5,12 @@ const About = () => {
         <div className='col-10 offset-1'>
             <div className='row'>
                 <div className='col-6 mt-5'>
-                    <img src='/images/about.jpg' className='col-9' />
+                    <img src='/img/thoratbags logo black.png' className='col-9 logo' />
                 </div>
                 <div className='col-6 mt-5'>
                     <h2 className='primary-text'>About Us</h2>
                     <p className='my-3'>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus exercitationem sequi beatae voluptate sint nemo nesciunt autem assumenda temporibus voluptatum officiis provident fugiat, omnis vero dolores similique eligendi sit voluptates!
+                    Finding a clear gap in the market for high-profile bags, the brothers group decided to establish a world-class brand. They travelled through vibrant landscapes across India to find design inspirations and source the finest materials. These travels from 2010 to 2012 inspired the birth of Thorat Bags.
                     </p>
                     <div>
                         <p><i class="fa fa-check primary-text" aria-hidden="true"></i> Free Home Delivery</p>
@@ -20,15 +20,15 @@ const About = () => {
                 </div>
 
                 <div className='col-6 mt-4 mb-5'>
-                    <h2 className='mb-4 primary-text'>Our Brand Philosophy</h2>
+                    <h2 className='mb-4 primary-text'>Buy Bags Online</h2>
             
-                    <h5>CUSTOMER EXPERIENCE</h5>
-                    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, repudiandae nihil. Repudiandae, tempore laboriosam quidem deserunt repellat hic? Quidem dolor quisquam ut? Impedit eligendi quae commodi cumque deleniti, consectetur, eius, cupiditate rerum amet ducimus eum omnis nobis. Voluptates, at maxime, labore possimus architecto explicabo qui nisi molestiae tempore dolorem fugiat?</p>
-                    <h5>COMFORT</h5>
-                    <p >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam animi labore minus, dicta quidem explicabo quasi temporibus vel quod optio consequatur laborum natus eum odit, inventore voluptate blanditiis esse praesentium.</p>
+                    <h5>Our Collection</h5>
+                    <p >Check out our collection of fashion bags to raise your fashion quotient effortlessly. With tons of styles, colours and materials, our collection of fashion bags for men and women is drool worthy. Only question is where to start from! Let us guide you on all that is available here.</p>
+                    <h5>Our Range</h5>
+                    <p >The company’s brand portfolio includes product lines that range from affordable and mass-market to luxurious, high-end style and cater to every age group, from children and youth to men and women..</p>
                 </div>
-                <div className='col-6 mt-4 mb-5'>
-                    <img src='/images/customer.jpg' className='col-9 offset-3'/>
+                <div className='col-6 my-auto logo'>
+                    <img src='/img/thoratbags black.png' className='col-9 offset-3'/>
                 </div>
             </div>
 

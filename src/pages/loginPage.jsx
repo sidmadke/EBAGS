@@ -56,7 +56,7 @@ class LoginPage extends Form {
                     <InputComponent title="Email" type="text" name="email" error={this.state.error.email} onChange={this.handleChange} />
                     <InputComponent title="Password" type="password" name="password" error={this.state.error.password} onChange={this.handleChange} />
                     <div className="d-flex justify-content-between align-items-center">
-                    <button type="submit" className="btn btn-primary text-white">Submit</button>
+                    <button type="submit" className="btn bg-warning text-dark btn-contact">Submit</button>
                     <span>Not a Member? <Link to='/signup'>Sign-up</Link></span>
                     </div>
                     </form>
