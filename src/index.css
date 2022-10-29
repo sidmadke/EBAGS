@@ -102,18 +102,18 @@ code {
 
 label{
   /* font-size: 1.2rem; */
-  margin:5px 0;
+  margin:3px 0;
   
 }
 
 
 .form-control{
   border:2px solid rgba(0, 0, 0, 0.84);
-  font-size: 0.5rem;
+  font-size: 1.2rem;
 }
 
 #Message{
-  height:80px;
+  height:60px;
   resize: none;
 }
  /* .btn{
