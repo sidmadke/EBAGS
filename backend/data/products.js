@@ -13,7 +13,7 @@ const Products = {
             description:'this is description',
             stock:5,
             inCart:0,
-            
+            link:'https://rzp.io/l/ninenintynine' ,
         },
         {
             _id:102,
@@ -27,7 +27,8 @@ const Products = {
             reviews: 10,
             description:'this is description',
             stock:5,
-            inCart:0
+            inCart:0,
+            link:'https://rzp.io/l/ninenintynine' 
         },
         {
             _id:103,
@@ -41,7 +42,8 @@ const Products = {
             reviews: 10,
             description:'this is description',
             stock:5,
-            inCart:0
+            inCart:0,
+            link:'https://rzp.io/l/ninenintynine' 
         },
         {
             _id:104,
@@ -55,7 +57,8 @@ const Products = {
             reviews: 10,
             description:'this is description',
             stock:5,
-            inCart:0
+            inCart:0,
+            link:'https://rzp.io/l/ninenintynine' 
         }
     ],
     thoratProducts : [
@@ -64,52 +67,56 @@ const Products = {
             title: 'thorat-1',
             url: 'Thorat-section/thorat-1',
             image: '/img/gym2.png',
-            price: 450,
+            price: 449,
             brand: 'originals',
             rating: 4.5,
             reviews: 10,
             description:'this is description',
             stock:5,
-            inCart:0
+            inCart:0,
+            link:"https://rzp.io/l/p449"  
         },
         {
             _id:202,
             title: 'thorat-2',
             url: 'Thorat-section/thorat-2',
             image: '/img/gym.png',
-            price: 450,
+            price: 449,
             brand: 'originals',
             rating: 4.5,
             reviews: 10,
             description:'this is description',
             stock:5,
-            inCart:0
+            inCart:0,
+            link:"https://rzp.io/l/p449"  
         },
         {
             _id:203,
             title: 'thorat-3',
             url: 'Thorat-section/thorat-3',
             image: '/img/gym2.png',
-            price: 450,
+            price: 449,
             brand: 'originals',
             rating: 4.5,
             reviews: 10,
             description:'this is description',
             stock:5,
-            inCart:0
+            inCart:0,
+            link:"https://rzp.io/l/p449"  
         },
         {
             _id:204,
             title: 'thorat-4',
             url: 'Thorat-section/thorat-4',
             image: '/img/gym.png',
-            price: 450,
+            price: 449,
             brand: 'originals',
             rating: 4.5,
             reviews: 10,
             description:'this is description',
             stock:5,
-            inCart:0
+            inCart:0,
+            link:"https://rzp.io/l/p449"  
         }
     ],
     militaryProducts : [
@@ -118,52 +125,56 @@ const Products = {
             title: 'military-1',
             url: 'military-section/military-1',
             image: '/img/bags/mili1.png',
-            price: 1449,
+            price: 1499,
             brand: 'originals',
             rating: 4.5,
             reviews: 10,
             description:'this is description',
             stock:5,
-            inCart:0
+            inCart:0,
+            link:'https://rzp.io/l/p1499'
         },
         {
             _id:302,
             title: 'military-2',
             url: 'military-section/military-2',
             image: '/img/bags/mili2.png',
-            price: 1449,
+            price: 1499,
             brand: 'originals',
             rating: 4.5,
             reviews: 10,
             description:'this is description',
             stock:5,
-            inCart:0
+            inCart:0,
+            link:'https://rzp.io/l/p1499'
         },
         {
             _id:303,
             title: 'military-3',
             url: 'military-section/military-3',
             image: '/img/bags/mili3.png',
-            price: 1449,
+            price: 1499,
             brand: 'originals',
             rating: 4.5,
             reviews: 10,
             description:'this is description',
             stock:5,
-            inCart:0
+            inCart:0,
+            link:'https://rzp.io/l/p1499'
         },
         {
             _id:304,
             title: 'military-4',
             url: 'military-section/military-4',
             image: '/img/bags/mili4.png',
-            price: 1449,
+            price: 1499,
             brand: 'originals',
             rating: 4.5,
             reviews: 10,
             description:'this is description',
             stock:5,
-            inCart:0
+            inCart:0,
+            link:'https://rzp.io/l/p1499'
         }
     ],
     ladiesProducts : [
@@ -178,7 +189,8 @@ const Products = {
             reviews: 10,
             description:'this is description',
             stock:5,
-            inCart:0
+            inCart:0,
+            link:'https://rzp.io/l/p449'  
         },
         {
             _id:402,
@@ -191,7 +203,8 @@ const Products = {
             reviews: 10,
             description:'this is description',
             stock:5,
-            inCart:0
+            inCart:0,
+            link:'https://rzp.io/l/p449'  
         },
         {
             _id:403,
@@ -204,7 +217,8 @@ const Products = {
             reviews: 10,
             description:'this is description',
             stock:5,
-            inCart:0
+            inCart:0,
+            link:'https://rzp.io/l/p449'  
         },
         {
             _id:404,
@@ -217,7 +231,8 @@ const Products = {
             reviews: 10,
             description:'this is description',
             stock:5,
-            inCart:0
+            inCart:0,
+            link:'https://rzp.io/l/p449'  
         }
     ],
     collegeProducts : [
@@ -232,7 +247,8 @@ const Products = {
             reviews: 5,
             description:'this is description',
             stock:5,
-            inCart:0
+            inCart:0,
+            link:'https://rzp.io/l/pf99' 
         },
         {
             _id: 502,
@@ -245,7 +261,8 @@ const Products = {
             reviews: 10,
             description:'this is description',
             stock:5,
-            inCart:0
+            inCart:0,
+            link:'https://rzp.io/l/pf99' 
         },
         {
             _id: 503,
@@ -258,7 +275,8 @@ const Products = {
             reviews: 10,
             description:'this is description',
             stock:5,
-            inCart:0
+            inCart:0,
+            link:'https://rzp.io/l/pf99' 
         },
         {
             _id: 504,
@@ -271,8 +289,9 @@ const Products = {
             reviews: 10,
             description:'this is description',
             stock:5,
-            inCart:0
-        }
+            inCart:0,
+            link:'https://rzp.io/l/pf99' 
+        },
     ]
 }
 
