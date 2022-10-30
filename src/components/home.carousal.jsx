@@ -23,19 +23,19 @@ const HomeCarousal = () => {
 
           <div className="carousel-inner ">
             <div className='row'>
-              <div className='col-5 offset-1 static p-5 '>
+              <div className='col-lg-5 col-md-0 col-sm-3 offset-1 static p-5'>
                 <strong><h1 className='text-black title'>Meet Our</h1>
                 <h1 className='text-black title'>New Products</h1></strong>
               </div>
-              <div className='col-10 offset-1'>
+              <div className='col-lg-10 col-md-12 col-sm-3 offset-1'>
                 <Carousal text="New Stylish Gym Bag for everyone."
-                  image={cover4} class="carousel-item active" />
+                  image={cover4} class="carousel-item active img-fluid" />
                 <Carousal text="Unique Styled College Bag. Go and check at Product Section."
-                  image={cover5} class="carousel-item" />
+                  image={cover5} class="carousel-item col-md-12 img-fluid" />
                 <Carousal text="Hand Bag. Your All time companion."
-                  image={cover6} class="carousel-item" />
+                  image={cover6} class="carousel-item col-md-12 img-fluid" />
                 <Carousal text="Your Gym Buddy."
-                  image={cover7} class="carousel-item" />
+                  image={cover7} class="carousel-item col-md-12 img-fluid" />
               </div>
             </div>
           </div>
