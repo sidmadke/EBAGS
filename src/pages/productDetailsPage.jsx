@@ -53,7 +53,7 @@ class ProductDetailsPage extends Component {
 
                             {product.stock > 0 &&
                                 <div className='d-flex justify-content-center my-3'>
-                                    <a href={product.link} className="btn btn-warning btn-sm bg-orange">
+                                    <a href={product.link} target="_blank" className="btn btn-warning btn-sm bg-orange">
                                         <p className='m-0 fw-bolder'>Buy Now<i class="fa-solid fa-cart-shopping"></i>
                                         </p></a>
                                 </div>
