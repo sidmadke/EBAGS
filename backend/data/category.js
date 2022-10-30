@@ -3,7 +3,7 @@ const Category = [
         title: 'Thorat Bags',
         url: 'Thorat-section',
         image: './images/gym.png',
-        price: 450,
+        price: 449,
         description:'This is description of Thorat Bag. Explore More by clicking here'
     },
     {
@@ -31,7 +31,7 @@ const Category = [
         title: 'Military Bag',
         url: 'military-section',
         image: './img/bags/mili1.png',
-        price: 1449,
+        price: 1499,
         description:'This is description of Military Bags.'
     }
 
