@@ -11,7 +11,7 @@ import Carousal from './common/carousal';
 const HomeCarousal = () => {
   return (
     <div className='primary-color '>
-      <div id="carouselExampleIndicators" className="carousel slide max-width-1600 mx-auto " data-bs-ride="carousel">
+      {/* <div id="carouselExampleIndicators" className="carousel slide max-width-1600 mx-auto " data-bs-ride="carousel">
         <div className='mx-auto '>
 
           <div className="carousel-indicators">
@@ -50,7 +50,7 @@ const HomeCarousal = () => {
           </button>
 
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
